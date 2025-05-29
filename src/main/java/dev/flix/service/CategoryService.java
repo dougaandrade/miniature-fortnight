@@ -1,12 +1,13 @@
 package dev.flix.service;
 
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
 import dev.flix.entity.Category;
 import dev.flix.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor

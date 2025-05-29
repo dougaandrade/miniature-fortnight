@@ -1,7 +1,8 @@
 package dev.flix.repository;
 
-import dev.flix.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import dev.flix.entity.Category;
 
 public interface CategoryRepository extends JpaRepository<Category, Long> {
 }

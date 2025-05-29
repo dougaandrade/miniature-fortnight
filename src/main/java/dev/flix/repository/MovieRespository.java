@@ -1,10 +1,11 @@
 package dev.flix.repository;
 
-import dev.flix.entity.Category;
-import dev.flix.entity.Movie;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.List;
+import dev.flix.entity.Category;
+import dev.flix.entity.Movie;
 
 public interface MovieRespository extends JpaRepository<Movie, Long> {
 

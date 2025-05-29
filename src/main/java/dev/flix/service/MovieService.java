@@ -1,15 +1,16 @@
 package dev.flix.service;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
 import dev.flix.entity.Category;
 import dev.flix.entity.Movie;
 import dev.flix.entity.StreamService;
 import dev.flix.repository.MovieRespository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor

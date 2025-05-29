@@ -1,7 +1,16 @@
 package dev.flix.controller.response;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Builder
-public record CategoryResponse(Long id, String name) {
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+
+public class CategoryResponse {
+  Long id;
+  String name;
 }

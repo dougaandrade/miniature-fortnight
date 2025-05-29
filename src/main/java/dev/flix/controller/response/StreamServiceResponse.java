@@ -1,7 +1,16 @@
 package dev.flix.controller.response;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Builder
-public record StreamServiceResponse(Long id, String name) {
+@AllArgsConstructor
+@Data
+@NoArgsConstructor
+
+public class StreamServiceResponse {
+  Long id;
+  String name;
 }
