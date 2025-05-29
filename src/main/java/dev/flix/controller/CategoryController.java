@@ -23,7 +23,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/flix/category")
-@RequiredArgsConstructor
+@RequiredArgsConstructor // injecta o CategoryService
 public class CategoryController {
 
     private final CategoryService categoryService;

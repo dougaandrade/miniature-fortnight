@@ -6,4 +6,4 @@ CREATE TABLE movie (
     rating numeric,
     created_at timestamp,
     updated_at timestamp
-);
+); 
