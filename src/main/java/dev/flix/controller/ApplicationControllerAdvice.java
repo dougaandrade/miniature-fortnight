@@ -29,18 +29,4 @@ public class ApplicationControllerAdvice {
                 .forEach(error -> errors.put(((FieldError) error).getField(), error.getDefaultMessage()));
         return errors;
     }
-
-    // @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    // @ExceptionHandler({Exception.class})
-    // public Map<String, String> handleException(Exception ex) {
-    // Map<String, String> error = new HashMap<>();
-    // error.put(ex.getClass().getName(), ex.getMessage());
-    // return error;
-    // }
-
-    // @ExceptionHandler({EntityNotFoundException.class,
-    // NoHandlerFoundException.class})
-    // public ResponseEntity<Void> handle404Error() {
-    // return ResponseEntity.notFound().build();
-    // }
 }
